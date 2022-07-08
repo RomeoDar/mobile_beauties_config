@@ -1,0 +1,186 @@
+{
+  "HorizonLayout": [
+    {
+      "layout": "logo",
+      "showMenu": true,
+      "showSearch": false,
+      "showLogo": false
+    },
+    {
+      "isSafeArea":false,
+      "showSearch":false,
+      "usePrimaryColor":true,
+      "borderInput":false,
+      "title":"What can we help you find?",
+      "alignment":"centerLeft",
+      "fontWeight":0,
+      "radius":30,
+      "fontSize":15.0,
+      "textOpacity":0.8,
+      "marginLeft":18.0,
+      "marginRight":18.0,
+      "marginBottom":5.0,
+      "marginTop":5.0,
+      "paddingLeft":5.0,
+      "paddingRight":15.0,
+      "paddingTop":0.0,
+      "paddingBottom":0.0,
+      "height":45.0,
+      "rotate":[],
+      "layout":"header_search"
+    },
+    {
+      "layout":"category",
+      "type":"image",
+      "wrap":false,
+      "showShortDescription":false,
+      "paddingTop": 4.0,
+      "size":1.0,
+      "radius": 2.0,
+
+      "items": [
+        {
+          "category": 51,
+          "showText": true,
+          "name": "Natural Hair",
+          "image": "http://www.tinval.everything-local.com/wp-content/uploads/2022/03/istockphoto-1281698360-612x612-1.jpg"
+        },
+        {
+          "category": 53,
+          "showText": true,
+          "name": "Weaves",
+          "image": "http://www.tinval.everything-local.com/wp-content/uploads/2022/03/WEAVES.png"
+        },
+        {
+          "category": 52,
+          "showText": true,
+          "name": "Braid",
+          "image": "http://www.tinval.everything-local.com/wp-content/uploads/2022/03/BRAIDS.png"
+        },
+        {
+          "category": 54,
+          "showText": true,
+          "name": "Makeup",
+          "image": "http://www.tinval.everything-local.com/wp-content/uploads/2022/03/MAKEUP.png"
+        },
+        {
+          "category": 60,
+          "showText": true,
+          "name": "Barber",
+          "image": "http://www.tinval.everything-local.com/wp-content/uploads/2022/04/Untitled-design-2-8.jpeg"
+        }
+      ]
+    },
+    {
+      "layout": "bannerImage",
+      "isSlider": true,
+      "autoPlay": true,
+      "showNumber": false,
+      "design": "default",
+      "showBackGround": true,
+      "radius": 2.0,
+      "items": [
+        {
+          "category": 51,
+          "image": "http://www.tinval.everything-local.com/wp-content/uploads/2022/04/InShot_20220413_134321428-scaled.jpg",
+          "padding": 5.0
+        },
+        {
+          "category": 51,
+          "image": "http://www.tinval.everything-local.com/wp-content/uploads/2022/04/nn-scaled.jpg",
+          "padding": 5.0
+        },{
+          "category": 51,
+          "image": "http://www.tinval.everything-local.com/wp-content/uploads/2022/04/InShot_20220413_132711441-scaled.jpg",
+          "padding": 5.0
+        },{
+          "category": 51,
+          "image": "http://www.tinval.everything-local.com/wp-content/uploads/2022/04/InShot_20220413_134130658-scaled.jpg",
+          "padding": 5.0
+        },{
+          "category": 51,
+          "image": "http://www.tinval.everything-local.com/wp-content/uploads/2022/04/InShot_20220413_124007957-scaled.jpg",
+          "padding": 5.0
+        },{
+          "category": 51,
+          "image": "http://www.tinval.everything-local.com/wp-content/uploads/2022/04/InShot_20220413_132544899-scaled.jpg",
+          "padding": 5.0
+        },{
+          "category": 51,
+          "image": "http://www.tinval.everything-local.com/wp-content/uploads/2022/04/InShot_20220413_134232490-scaled.jpg",
+          "padding": 5.0
+        }
+      ]
+    },
+
+    {
+      "layout": "bannerImage",
+      "items": [
+
+        {
+          "url":"https://www.instagram.com/mobilebeauticians/?hl=en",
+          "image": "http://www.tinval.everything-local.com/wp-content/uploads/2022/04/Copy-of-Follow-Us-on-Social-media-Made-with-PosterMyWall-3.png",
+          "padding": 5.0
+        },
+        {
+          "url":"https://www.amazon.com/stores/page/F4A189DA-CD5F-4A6A-9D53-BF4F3F30AABA?ingress=2&visitId=cd571882-c49a-46c4-a305-9e94f5f14be1&ref_=ast_bln",
+          "image": "http://www.tinval.everything-local.com/wp-content/uploads/2022/04/SHOP-OUR-PRODUCTS-1.png",
+          "padding": 5.0
+        }
+      ]
+    },
+    {
+      "name": "Top Beauticians",
+      "layout": "twoColumn"
+    }
+  ],
+  "VerticalLayout": {
+    "name": "Explore",
+    "layout": "menu"
+  },
+  "Setting": {
+    "MainColor": "#1b98a6",
+    "FontFamily": "Roboto",
+    "ProductListLayout": "list"
+  },
+  "TabBar": [
+    {
+      "layout": "home",
+      "icon": "house_fill",
+      "pos": 100,
+      "fontFamily": "CupertinoIcons",
+      "key": "p1q235ba14"
+    },
+    {
+      "pos": 200,
+      "layout": "category",
+      "icon": "rectangle_3_offgrid_fill",
+      "fontFamily": "CupertinoIcons",
+      "categoryLayout": "sideMenu",
+      "key": "hwu0rkrizt"
+    },
+    {
+      "key": "2reihs4qzc",
+      "icon": "search",
+      "layout": "search",
+      "fontFamily": "CupertinoIcons",
+      "pos": 300,
+      "size": 24
+    },
+    {
+      "pos":400,
+      "icon": "heart_fill",
+      "layout": "cart",
+      "categoryLayout":"cart",
+      "key":"a2xts0oou6" ,
+      "fontFamily":"CupertinoIcons"
+    },
+    {
+      "layout": "profile",
+      "fontFamily": "CupertinoIcons",
+      "pos": 500,
+      "key": "69jw5yx12d",
+      "icon": "person_fill"
+    }
+  ]
+}
